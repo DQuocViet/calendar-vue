@@ -49,11 +49,3 @@ export const seedData = [
         active: true
     },
 ]
-export const store = {
-    state: {
-        seedData
-    },
-    getActiveDay() {
-        return this.state.seedData.find((day) => day.active);
-    }
-}
